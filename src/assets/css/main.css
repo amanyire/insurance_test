@@ -1,0 +1,98 @@
+.main-card{
+        width:50%;
+        margin:auto;
+        background: rgb(223, 219, 219);
+        padding: 80px;
+        margin-top:100px;
+        justify-content: center;
+    }
+.details-card{
+        width:50%;
+        margin:auto;
+        background: rgb(223, 219, 219);
+        padding: 80px;
+        justify-content: center;
+    }
+
+    h1{
+        font-family: Helvetica;
+    }
+    body{
+        font-family: Helvetica;
+    }
+    p{
+        margin-top: 20px;
+        margin-bottom:30px;
+        font-family: Helvetica;
+    }
+    .background_color{
+        background-color:#000
+    }
+    .button_one{
+        background-color:black;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 60px;
+        padding-right:60px;
+        color:#ffffff;
+        border-radius: 10px;
+        font-size: large;
+        font-family: Helvetica;
+    }
+    .button_two{
+        background-color:#ffffff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 60px;
+        padding-right:60px;
+        color:#000000;
+        border-radius: 10px;
+        font-size: large;
+        font-family: Helvetica;
+        margin-right: 20px;
+    }
+    .input-lable{
+        width:100%;
+        text-align: left;
+    }
+    .input-field{
+        width:100%;
+        float: left;
+        margin-top:5px;
+        margin-bottom:10px;
+        size:20px;
+        height:35px;
+    }
+    .group_form_buttons{
+        margin-top:80px
+    }
+    .group_buttons_packages{
+        float:left;
+        size: 50px;
+        font-size: 20px;
+        border: 0px;
+        width:10%;
+        height: 1em;
+
+    }
+    .group_buttons_label{
+        font-size: 20px;
+        float:left;
+
+
+    }
+    .packages_div{
+        width:100%;
+        align-content: left;
+        padding:0px;
+        margin:0px;
+    }
+    .radio_group_div{
+        width:100%;
+        margin-top: 30px;
+        height: 10px;
+    }
+    .success_message{
+        color:rgb(9, 136, 9);
+        margin-top: 30px;
+    }
