@@ -57,9 +57,7 @@ export default {
       units: '',
       safeInsurance: 0,
       superInsurance: 0,
-      rate: 1,
       age: 30,
-      premiumPackageGrouping: 1,
       country: 'Hong Kong',
       options: [
         { text: 'Hong Kong', value: 'Hong Kong' },
@@ -70,10 +68,10 @@ export default {
     }
   },
   created () {
-    this.insuranceDataStore = JSON.parse(localStorage.getItem(STORAGE_KEY) || '')
+    this.insuranceDataStore = JSON.parse(localStorage.getItem(STORAGE_KEY) || '') // Fetching Data from local storage
   },
   methods: {
-    premiumPackage () {
+    premiumPackage () { // Function to calculate the premium of insurance to be paid
       this.safeInsurance = 10 * this.age * 1
       this.superInsurance = 10 * this.age * 2 * (75 / 100)
       if (this.country === 'USA') {
@@ -111,7 +109,7 @@ export default {
     }
   },
   mounted () {
-    this.premiumPackage()
+    this.premiumPackage() // Funtion call on doom mounting
   }
 }
 </script>

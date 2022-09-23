@@ -28,10 +28,7 @@ export default {
       country: 'USA',
       insurance: 'Standard',
       premium: '500USD',
-      successfulTransaction: '',
-      itemsObject: {},
-      itemsArray: []
-
+      successfulTransaction: ''
     }
   },
   created () {
