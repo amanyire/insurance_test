@@ -21,7 +21,6 @@
                   <input type="radio" id="one" value="standard" v-model="insurance" class="group_buttons_packages" :checked="checkedValue == 'standard'">
                   <label for="one" class="group_buttons_label" checked>Standard</label>
                   </div>
-                  <hr/>
                   <div class="radio_group_div">
                   <input type="radio" id="two" value="safe" v-model="insurance" class="group_buttons_packages" :checked="checkedValue == 'safe'">
                   <label for="two" class="group_buttons_label">Safe(+{{safeInsurance}}{{units}}, 50%)</label>
